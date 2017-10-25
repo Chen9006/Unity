@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/first_page_radioGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--第一个RadioButton-->
+        <RadioButton
+            android:id="@+id/real_time_button"
+            android:text="实时"
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <!--第二个RadioButton-->
+        <RadioButton
+            android:id="@+id/hot_button"
+            android:text="热门"
+
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <!--第三个RadioButton-->
+        <RadioButton
+            android:id="@+id/myacademy_button"
+            android:text="我的学院"
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/first_page_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
+
+
+
+
