@@ -1,0 +1,1 @@
+F:\unity\Tank\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
